@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<title>Haynes-Pro Assessment App</title>
+<link rel="stylesheet" href="lib/jquery-ui-1.11.4/jquery-ui.min.css">
+<link rel="stylesheet" href="lib/jquery-ui-timepicker-0.3.3/jquery.ui.timepicker.css">
+<link rel="stylesheet"href="lib/fullcalendar-2.7.3/fullcalendar.min.css" />
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<script src="lib/jquery-2.2.4.min.js"></script>
+<script src="lib/jquery-ui-1.11.4/jquery-ui.min.js"></script>
+<script src="lib/jquery-ui-timepicker-0.3.3/jquery.ui.timepicker.js"></script>
+<script src="lib/moment.min.js"></script>
+<script src="lib/fullcalendar-2.7.3/fullcalendar.min.js"></script>
+<script src="lib/fullcalendar-2.7.3/lang/nl.js"></script>
+<script src="lib/fullcalendar-2.7.3/lang/nl.js"></script>
+<script src="js/calendar.js"></script>
+</head>
+
+<body>
+
+	<div id="calendar"></div>
+
+	<div id="dialog" title="Evemenent gegevens">
+		<input id="id" type="hidden">
+		<table style="width: 100%">
+			<tr>
+				<td>Titel</td>
+				<td><input id="title" type="text" size="60" maxlength="144"
+					style="width: 100%"></td>
+			</tr>
+			<tr>
+				<td>Van</td>
+				<td><input type="text" class="datepicker" id="datepicker1"
+					style="width: 6em"> <input type="text" class="timepicker"
+					id="timepicker1" style="width: 4em"></td>
+			</tr>
+			<tr>
+				<td>Tot</td>
+				<td><input type="text" class="datepicker" id="datepicker2"
+					style="width: 6em"> <input type="text" class="timepicker"
+					id="timepicker2" style="width: 4em"></td>
+			</tr>
+			<tr>
+				<td>Publiek</td>
+				<td><input id="public" type="checkbox"></td>
+			</tr>
+			<tr>
+				<td>Option</td>
+				<td><input id="option" type="checkbox"></td>
+			</tr>
+			<tr>
+				<td>Type</td>
+				<td><select id="type">
+						<option value="show">Voorstelling</option>
+						<option value="event">Evenement</option>
+						<option value="group_event">Bedrijfsworkshop</option>
+						<option value="classes">Lessen</option>
+						<option value="workshop">Workshop</option>
+						<option value="private">Privé</option>
+				</select></td>
+			</tr>
+			<tr>
+				<td>Opmerking</td>
+				<td><textarea id="remark" style="width: 100%" cols="60"
+						rows="5"></textarea></td>
+			</tr>
+		</table>
+	</div>
+
+</body>
+
+</html>
