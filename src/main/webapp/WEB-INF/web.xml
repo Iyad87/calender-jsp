@@ -6,7 +6,7 @@
 	<display-name>Haynes-Pro Assessment Application</display-name>
 	<servlet>
 		<servlet-name>dispacherServlet</servlet-name>
-		<servlet-class>com.haynespro.assessment.DispacherServlet</servlet-class>
+		<servlet-class>com.iyad.DispacherServlet</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>dispacherServlet</servlet-name>

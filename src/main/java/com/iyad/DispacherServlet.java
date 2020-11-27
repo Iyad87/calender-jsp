@@ -1,4 +1,4 @@
-package com.haynespro.assessment;
+package com.iyad;
 
 import java.io.IOException;
 import java.sql.Connection;
@@ -13,14 +13,14 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.sql.DataSource;
 
+import com.iyad.controller.SaveEventController;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import com.haynespro.assessment.controller.Controller;
-import com.haynespro.assessment.controller.EventListController;
-import com.haynespro.assessment.controller.GetEventController;
-import com.haynespro.assessment.controller.SaveEventController;
-import com.haynespro.assessment.controller.UpdateEventController;
+import com.iyad.controller.Controller;
+import com.iyad.controller.EventListController;
+import com.iyad.controller.GetEventController;
+import com.iyad.controller.UpdateEventController;
 
 public class DispacherServlet extends HttpServlet {
 

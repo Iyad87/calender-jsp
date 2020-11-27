@@ -1,13 +1,11 @@
-package com.haynespro.assessment.controller;
+package com.iyad.controller;
 
 import java.io.IOException;
-import java.io.PrintWriter;
 import java.sql.Connection;
 import java.sql.SQLException;
 import java.sql.Timestamp;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.util.List;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -15,9 +13,8 @@ import javax.servlet.http.HttpServletResponse;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.haynespro.assessment.dao.Event;
-import com.haynespro.assessment.dao.EventDao;
+import com.iyad.dao.Event;
+import com.iyad.dao.EventDao;
 
 public class SaveEventController implements Controller {
 	

@@ -1,4 +1,4 @@
-package com.haynespro.assessment.controller;
+package com.iyad.controller;
 
 import java.io.IOException;
 
