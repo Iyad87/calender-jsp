@@ -3,7 +3,7 @@
  "http://java.sun.com/dtd/web-app_2_3.dtd" >
 
 <web-app>
-	<display-name>Haynes-Pro Assessment Application</display-name>
+	<display-name>Calender Application</display-name>
 	<servlet>
 		<servlet-name>dispacherServlet</servlet-name>
 		<servlet-class>com.iyad.DispacherServlet</servlet-class>
